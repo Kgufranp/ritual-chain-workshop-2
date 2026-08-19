@@ -37,7 +37,7 @@ export default defineConfig({
       chainType: "l1",
       chainId: 1979,
       url: "https://rpc.ritualfoundation.org",
-      accounts: [configVariable("DEPLOYER_PRIVATE_KEY")],
+      accounts: [configVariable("RITUAL_PRIVATE_KEY")],
     },
   },
 });
